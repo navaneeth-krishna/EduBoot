@@ -6,12 +6,11 @@ body{
   background-color: #edf2ff;
 }
 
-.brand,.material-icons {
+.navbar-brand,.material-icons {
   font-family: Raleway;
   font-size: 2rem;
   color: #ff406e;
 }
-
 h1{
   color: white;
   padding-top: 3rem;
