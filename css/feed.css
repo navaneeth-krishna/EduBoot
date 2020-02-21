@@ -1,0 +1,110 @@
+body{
+  font-family: Montserrat;
+}
+
+.navbar-bg {
+  background-color: #edf2ff;
+}
+
+.brand,.material-icons {
+  font-family: Raleway;
+  font-size: 2rem;
+  color: #ff406e;
+}
+
+h1{
+  color: white;
+  padding-top: 3rem;
+  background: linear-gradient(to left, #ff8754, #ff406e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+
+.greeting{
+  height: auto;
+}
+
+.tablink {
+  background-color: #edf2ff;
+  color:#ff406e ;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  font-size: 17px;
+  width: 33.33%;
+}
+
+
+
+.tablink:hover {
+  background-color: #ff8754;
+  color: #edf2ff;
+}
+
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #ff406e;
+  padding: 100px 20px;
+  height: 100%;
+  display: none;
+}
+
+#Visual,
+#Auditory,
+#Kinesthetic {background-color: #edf2ff;
+  color: #ff406e;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.bottom-container {
+  height: auto;
+  color: #edf2ff;
+  background: #283148;
+  padding: 5rem 0 7rem 0;
+  font-size: 0.9rem;
+}
+
+.footer-brand {
+  color: #edf2ff;
+  padding-left: 2rem;
+}
+
+
+.footer-item {
+  text-align: left;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+ .extd {
+   padding-top: 2.6rem;
+ }
+
+.footer-item-heading {
+  color: #ff406e;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.icon {
+  font-size: 3rem;
+  padding: 0 16px;
+  color: #ff406e;
+}
+
+.icon:hover {
+  color: #642f67;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: #ff406e;
+
+}
