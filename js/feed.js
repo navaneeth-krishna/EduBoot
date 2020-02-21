@@ -1,6 +1,8 @@
 document.getElementById("defaultOpen").click();
 
+var name=window.localStorage.getItem("name");
 
+document.getElementById("hi").innerHTML="Hello "+name;
 
 function openPage(pageName, elmnt, color) {
   // Hide all elements with class="tabcontent" by default */
