@@ -68,9 +68,58 @@
     <div class="container-fluid">
       <h1>Flipped ClassRoom</h1>
 
+      <button class="tablink" onclick="openPage('aids', this, '#ff406e')" id="defaultOpen">Faculty Aids</button>
+<button class="tablink" onclick="openPage('doubts', this, '#ff406e')" >Doubts</button>
+<button class="tablink" onclick="openPage('interact', this, '#ff406e')">Video Conference</button>
 
-      <div class="w3-sidebar w3-bar-block w3-black w3-card sidenav " style="width:130px">
-        <h5 class="w3-bar-item">Menu</h5>
+<div id="aids" class="tabcontent ">
+  <center>
+    <h2>Faculty Aids</h2>
+    <p>Study Materials</p>
+  </center>
+  <br>
+  <h4> videos </h4>
+  <br>
+  <br>
+  <br>
+  <iframe width="400" height="250" src="https://www.youtube.com/embed/TEMmESG8tsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> &nbsp;
+  <iframe width="400" height="250" src="https://www.youtube.com/embed/QQsybALJoew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> &nbsp;
+  <iframe width="400" height="250" src="https://www.youtube.com/embed/QAa2O_8wBUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <br>
+  <h4> Notes </h4>
+  <br>
+  <a href="https://drive.google.com/file/d/0B3NxkoXJWBBqQ19MVW1XWE05OTJuekVhY0t0QXVRWWFNcW9v/view?usp=sharing"> Note 1 </a>
+  <br>
+  <a href="https://drive.google.com/file/d/0B3NxkoXJWBBqQ19MVW1XWE05OTJuekVhY0t0QXVRWWFNcW9v/view?usp=sharing"> Note 2 </a>
+
+</div>
+
+<div id="doubts" class="tabcontent">
+  <center>
+    <h2>Submit your doubts in the form provided</h2>
+    <br>
+
+    <form>
+      <label for="fname">Doubt :</label><br>
+      <input type="text" id="fname" name="fname" size=100><br>
+
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+    <p> If you click the "Submit" button, the form-data will be sent to your faculty </p>
+  </center>
+</div>
+
+<div id="interact" class="tabcontent ">
+  <center>
+    <h2>One to One interaction</h2>
+    <br> <br>
+    <a href="skype:echo123?call"> Request a video Call </a>
+  </center></div>
+
+      <!-- <div class="w3-sidebar w3-bar-block w3-black w3-card sidenav " style="width:130px">
+        <h5 class="w3-bar-item">Menu</h5
         <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'FacultyAids')">Faculty Aids</button>
         <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Doubts')">Doubts</button>
         <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Right')">Video Conference</button>
@@ -80,52 +129,17 @@
         <div class="w3-padding"></div>
 
         <div id="FacultyAids" class="w3-container city w3-animate-opacity" style="display:none">
-          <center>
-            <h2>Faculty Aids</h2>
-            <p>Study Materials</p>
-          </center>
-          <br>
-          <h4> videos </h4>
-          <br>
-          <br>
-          <br>
-          <iframe width="400" height="250" src="https://www.youtube.com/embed/TEMmESG8tsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> &nbsp;
-          <iframe width="400" height="250" src="https://www.youtube.com/embed/QQsybALJoew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> &nbsp;
-          <iframe width="400" height="250" src="https://www.youtube.com/embed/QAa2O_8wBUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <br>
-          <br>
-          <h4> Notes </h4>
-          <br>
-          <a href="https://drive.google.com/file/d/0B3NxkoXJWBBqQ19MVW1XWE05OTJuekVhY0t0QXVRWWFNcW9v/view?usp=sharing"> Note 1 </a>
-          <br>
-          <a href="https://drive.google.com/file/d/0B3NxkoXJWBBqQ19MVW1XWE05OTJuekVhY0t0QXVRWWFNcW9v/view?usp=sharing"> Note 2 </a>
+                  </div>
+
+        <div id="Doubts" class="w3-container city w3-animate-bottom" style="display:none">
+
         </div>
 
-        <div id="Doubts" class="w3-container city w3-animate-left" style="display:none">
-          <center>
-            <h2>Submit your doubts in the form provided</h2>
-            <br>
+        <div id="Right" class="w3-container city w3-animate-bottom" style="display:none">
 
-            <form>
-              <label for="fname">Doubt :</label><br>
-              <input type="text" id="fname" name="fname" size=100><br>
-
-              <br>
-              <input type="submit" value="Submit">
-            </form>
-            <p> If you click the "Submit" button, the form-data will be sent to your faculty </p>
-          </center>
         </div>
 
-        <div id="Right" class="w3-container city w3-animate-right" style="display:none">
-          <center>
-            <h2>One to One interaction</h2>
-            <br> <br>
-            <a href="skype:echo123?call"> Request a video Call </a>
-          </center>
-        </div>
-
-      </div>
+      </div> -->
 
     </div>
     <!-- </main> -->
@@ -162,7 +176,7 @@
 
   </div>
 
-  <script>
+  <!-- <script>
     function openLink(evt, animName) {
       var i, x, tablinks;
       x = document.getElementsByClassName("city");
@@ -179,7 +193,9 @@
 
 
     }
-  </script>
+  </script> -->
+
+  <script src="flipclass.js" charset="utf-8"></script>
 
 </body>
 

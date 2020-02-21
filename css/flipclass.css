@@ -33,6 +33,49 @@ h2{
   position: inherit;
 }
 
+
+
+
+.tablink {
+  background-color: #edf2ff;
+  color: #ff406e;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  font-size: 17px;
+  width: 33.33%;
+}
+
+.tablink:hover {
+  background-color: #283148;
+  color: #edf2ff;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #ff406e;
+  padding: 100px 20px;
+  height: 100%;
+  display: none;
+}
+
+#aids,
+#doubts,
+#interact {background-color: #edf2ff;}
+
+
+
+
+
+
+
+
+
+
+
+
 .main {
   padding-left: 5rem;
   padding-top: 3rem;
