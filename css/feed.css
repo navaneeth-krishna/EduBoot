@@ -1,4 +1,4 @@
-body{
+body {
   font-family: Montserrat;
 }
 
@@ -6,29 +6,34 @@ body{
   background-color: #edf2ff;
 }
 
-.brand,.material-icons {
+.brand, .material-icons {
   font-family: Raleway;
   font-size: 2rem;
   color: #ff406e;
 }
 
-h1{
+h1 {
   color: white;
   padding-top: 3rem;
-  background: linear-gradient(to left, #ff8754, #ff406e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #ff8754, #ff406e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding-left: 2rem;
   padding-bottom: 1rem;
   margin: 0;
 }
 
+.video{
+  width=100%;
+  height=auto;
+}
 
-.greeting{
+.greeting {
   height: auto;
 }
 
 .tablink {
   background-color: #edf2ff;
-  color:#ff406e ;
+  color: #ff406e;
   float: left;
   border: none;
   outline: none;
@@ -38,13 +43,10 @@ h1{
   width: 33.33%;
 }
 
-
-
 .tablink:hover {
-  background-color: #ff8754;
+  background-color: #283148;
   color: #edf2ff;
 }
-
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
@@ -56,11 +58,12 @@ h1{
 
 #Visual,
 #Auditory,
-#Kinesthetic {background-color: #edf2ff;
+#Kinesthetic {
+  background-color: #edf2ff;
   color: #ff406e;
 }
 
-.container-fluid{
+.container-fluid {
   padding: 0;
 }
 
@@ -77,15 +80,15 @@ h1{
   padding-left: 2rem;
 }
 
-
 .footer-item {
   text-align: left;
   padding-left: 3rem;
   padding-bottom: 2rem;
 }
- .extd {
-   padding-top: 2.6rem;
- }
+
+.extd {
+  padding-top: 2.6rem;
+}
 
 .footer-item-heading {
   color: #ff406e;
@@ -106,5 +109,4 @@ h1{
 .copyright {
   font-size: 0.8rem;
   color: #ff406e;
-
 }
