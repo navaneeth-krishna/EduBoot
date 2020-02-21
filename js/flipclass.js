@@ -1,4 +1,3 @@
-alert("Hi")
 
 document.getElementById("defaultOpen").click();
 
