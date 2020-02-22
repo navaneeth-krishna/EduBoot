@@ -35,9 +35,9 @@
   <div class="bmd-layout-container bmd-drawer-f-r bmd-drawer-overlay ">
     <header class="bmd-layout-header">
       <div class="navbar navbar-bg bg-faded ">
-              <a class="navbar-brand" href="#">EduBoot</a>
+        <a class="navbar-brand" href="#">EduBoot</a>
         <ul class="nav navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link"href="index.html">Logout</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Logout</a></li>
         </ul>
         <button class="navbar-toggler" type="button" data-toggle="drawer" data-target="#dw-s2">
           <span class="sr-only">Toggle drawer</span>
@@ -54,7 +54,7 @@
         <a class="list-group-item" href="flipclass.html">Flipped ClassRoom</a>
         <a class="list-group-item" href="peer.html">Connect with Peers</a>
         <a class="list-group-item" href="acquire.html">Acquire it!-Apply what you learnt</a>
-        <a class="list-group-item" href="selfEv.html">Test Yourself-Self Evalutation</a>
+        <a class="list-group-item activeListTab" href="selfEv.html">Test Yourself-Self Evalutation</a>
         <a class="list-group-item" href="query.html">Queries-Have Doubts? Ask Us</a>
 
       </ul>
@@ -69,28 +69,43 @@
 
 
         <h2>COMBUSTION AND FLAME</h2>
-        <form action="/action_page.php">
-          <p>1. Explosion takes place because of :</p>
+
+        <div class="q" id="q1">
+
+
+
+          <h4>1. Explosion takes place because of :</h4>
           <input type="radio" id="male" name="gender" value="male">
           <label for="male">release of large amount of heat </label><br>
           <input type="radio" id="female" name="gender" value="female">
           <label for="female">release of large amount of gas under pressure due to sudden reaction</label><br>
           <input type="radio" id="other" name="gender" value="other">
           <label for="other">none of the above</label>
+          <br><br>
+          <button class="submit" type="button" name="button">SUBMIT</button>
 
-          <br>
+        </div>
 
-          <p>2. When we heat water in a paper bowl over a candle, the paper does not catch fire because:</p>
+
+        <div class="q" id="q2">
+
+
+          <h4>2. When we heat water in a paper bowl over a candle, the paper does not catch fire because:</h4>
           <input type="radio" id="age1" name="age" value="30">
           <label for="age1">paper gets wet</label><br>
           <input type="radio" id="age2" name="age" value="60">
           <label for="age2">due to water the ignition temparature of paper is not reached</label><br>
           <input type="radio" id="age3" name="age" value="100">
           <label for="age3">paper is not inflammable</label><br><br>
+          <button class="submit" type="button" name="button">SUBMIT</button>
 
-          <br>
+        </div>
 
-          <p>3. In combustion:</p>
+
+        <div class="q" id="q3">
+
+
+          <h4>3. In combustion:</h4>
           <input type="radio" id="com1" name="com" value="30">
           <label for="com1">both heat and light is produced</label><br>
           <input type="radio" id="com2" name="com" value="60">
@@ -98,39 +113,49 @@
           <input type="radio" id="com3" name="com" value="100">
           <label for="com3">only light is produced</label><br><br>
 
-          <br>
+        </div>
 
-          <p>4. Ignition temparature is :</p>
+
+        <div class="q" id="q4">
+
+
+          <h4>4. Ignition temparature is :</h4>
           <input type="radio" id="temp1" name="temp" value="30">
           <label for="temp1">the temparature of burning substance </label><br>
           <input type="radio" id="temp2" n ame="temp" value="60">
           <label for="temp2">the minimum temperature at which a substanvce catches fire </label><br>
           <input type="radio" id="temp3" name="temp" value="100">
           <label for="temp3">the temperature in the substance when fire if put off</label><br><br>
+        </div>
 
-          <br>
 
-          <p>5. Fuel may be:</p>
+        <div class="q" id="q5">
+
+
+
+          <h4>5. Fuel may be:</h4>
           <input type="radio" id="fuel1" name="fuel" value="30">
           <label for="temp1">solid only</label><br>
           <input type="radio" id="fuel2" name="fuel" value="60">
           <label for="temp2">liquid only </label><br>
           <input type="radio" id="fuel3" name="fuel" value="100">
           <label for="temp3">solid, liquid or gas</label><br><br>
+        </div>
 
-          <br>
 
-          <p>6. The amount of heat energy produced on complete combustion of ____ fuel is called its calorific value.</p>
+        <div class="q" id="q6">
+
+
+          <h4>6. The amount of heat energy produced on complete combustion of ____ fuel is called its calorific value.</h4>
           <input type="radio" id="heat1" name="heat" value="30">
           <label for="heat1">1 litre </label><br>
           <input type="radio" id="heat2" name="heat" value="60">
           <label for="heat2">1 gram </label><br>
           <input type="radio" id="heat3" name="heat" value="100">
           <label for="heat3">1 kg</label><br><br>
+        </div>
 
-          <br>
-
-          <p>7. The substances which have very low ignition temperature and can easily fire with the flame are called:</p>
+        <!-- <p>7. The substances which have very low ignition temperature and can easily fire with the flame are called:</p>
           <input type="radio" id="sub1" name="sub" value="30">
           <label for="sub1"> fire proof substance</label><br>
           <input type="radio" id="sub2" name="sub" value="60">
@@ -167,8 +192,8 @@
           <input type="radio" id="ch2" name="ch" value="60">
           <label for="ch2">combustion </label><br>
           <input type="radio" id="ch3" name="ch" value="100">
-          <label for="ch3">conduction</label><br><br>
-          <button class="submit" type="button" name="button">SUBMIT</button>
+          <label for="ch3">conduction</label><br><br>-->
+
 
       </div>
       <!-- </main> -->
