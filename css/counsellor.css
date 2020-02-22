@@ -2,6 +2,10 @@ body {
   font-family: Montserrat;
 }
 
+textarea{
+  width: 70%;
+}
+
 .navbar-bg {
   background-color: #edf2ff;
 }
