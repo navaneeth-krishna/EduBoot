@@ -74,6 +74,11 @@ h2{
   margin: 3rem 0;
 }
 
+.activeListTab{
+  background: linear-gradient(to left, #ff8754, #ff406e);
+  color: #edf2ff;
+}
+
 #aids,
 #doubts,
 #interact {background-color: #edf2ff;}

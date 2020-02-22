@@ -37,6 +37,11 @@ textarea{
   padding-top: 3rem;
 }
 
+.activeListTab{
+  background: linear-gradient(to left, #ff8754, #ff406e);
+  color: #edf2ff;
+}
+
 .submit {
   background: linear-gradient(to left, #ff8754, #ff406e);
   border-style: none;

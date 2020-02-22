@@ -25,6 +25,11 @@ h1{
   padding: 0;
 }
 
+.activeListTab{
+  background: linear-gradient(to left, #ff8754, #ff406e);
+  color: #edf2ff;
+}
+
 .bottom-container {
   height: auto;
   color: #edf2ff;

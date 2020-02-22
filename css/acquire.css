@@ -1,4 +1,4 @@
-body{
+body {
   font-family: Montserrat;
 }
 
@@ -6,25 +6,27 @@ body{
   background-color: #edf2ff;
 }
 
-.navbar-brand,.material-icons {
+.navbar-brand, .material-icons {
   font-family: Raleway;
   font-size: 2rem;
   color: #ff406e;
 }
 
-h1{
+h1 {
   color: white;
   padding-top: 3rem;
-  background: linear-gradient(to left, #ff8754, #ff406e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #ff8754, #ff406e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding-left: 2rem;
   padding-bottom: 1rem;
   margin: 0;
 }
 
-h2{
+h2 {
   margin-bottom: 3rem;
 }
-.container-fluid{
+
+.container-fluid {
   padding: 0;
 }
 
@@ -32,6 +34,11 @@ h2{
   padding-left: 5rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.activeListTab {
+  background: linear-gradient(to left, #ff8754, #ff406e);
+  color: #edf2ff;
 }
 
 .bottom-container {
@@ -47,15 +54,15 @@ h2{
   padding-left: 2rem;
 }
 
-
 .footer-item {
   text-align: left;
   padding-left: 3rem;
   padding-bottom: 2rem;
 }
- .extd {
-   padding-top: 2.6rem;
- }
+
+.extd {
+  padding-top: 2.6rem;
+}
 
 .footer-item-heading {
   color: #ff406e;
@@ -76,5 +83,4 @@ h2{
 .copyright {
   font-size: 0.8rem;
   color: #ff406e;
-
 }

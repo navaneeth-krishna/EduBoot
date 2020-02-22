@@ -29,8 +29,21 @@ h2{
 }
 
 .main {
-  padding-left: 5rem;
-  padding-top: 3rem;
+
+  padding: 3rem 5rem;
+}
+
+.activeListTab{
+  background: linear-gradient(to left, #ff8754, #ff406e);
+  color: #edf2ff;
+}
+
+.q{
+  border-style: solid;
+  border-color:#ff406e;
+  border-radius: 8px;
+  border-width: 4px;
+  padding: 4rem 2rem;
 }
 
 .submit {

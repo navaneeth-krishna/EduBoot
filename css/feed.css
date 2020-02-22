@@ -61,6 +61,11 @@ h1 {
   display: none;
 }
 
+.activeListTab{
+  background: linear-gradient(to left, #ff8754, #ff406e);
+  color: #edf2ff;
+}
+
 #Visual,
 #Auditory,
 #Kinesthetic {
