@@ -6,6 +6,10 @@ body {
   background-color: #edf2ff;
 }
 
+.navbar-sh{
+  box-shadow: 0;
+}
+
 .navbar-brand,.material-icons {
   font-family: Raleway;
   font-size: 2rem;

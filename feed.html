@@ -38,9 +38,9 @@
   <div class="bmd-layout-container bmd-drawer-f-r bmd-drawer-overlay ">
     <header class="bmd-layout-header">
       <div class="navbar navbar-bg bg-faded ">
-              <a class="navbar-brand" href="#">EduBoot</a>
+        <a class="navbar-brand" href="#">EduBoot</a>
         <ul class="nav navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link"href="index.html">Logout</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Logout</a></li>
         </ul>
         <button class="navbar-toggler" type="button" data-toggle="drawer" data-target="#dw-s2">
           <span class="sr-only">Toggle drawer</span>
@@ -69,6 +69,45 @@
 
       <div class="greeting">
         <h1 id="hi">Hello :)</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-sh" style="background: linear-gradient(to left, #ff8754, #ff406e);">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Class
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Class 8</a>
+                  <a class="dropdown-item" href="#">Class 9</a>
+                  <a class="dropdown-item" href="#">Class 10</a>
+                  <a class="dropdown-item" href="#">Class 11</a>
+                  <a class="dropdown-item" href="#">Class 12</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Subjects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Science</a>
+                  <a class="dropdown-item" href="#">Maths</a>
+                  <a class="dropdown-item" href="#">Social Science</a>
+                  <a class="dropdown-item" href="#">English</a>
+                  <a class="dropdown-item" href="#">Malayalam</a>
+                  <a class="dropdown-item" href="#">Hindi</a>
+
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
 
         <button class="tablink" onclick="openPage('Visual', this, '#ff406e')" id="defaultOpen">Visual</button>
         <button class="tablink" id="A-tab" onclick="openPage('Auditory', this, '#ff406e')">Auditory</button>
@@ -121,7 +160,7 @@
           <div class="card-group">
             <div class="card">
 
-                <iframe class="video" src="https://www.youtube.com/embed/9d6tseOh21Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="video" src="https://www.youtube.com/embed/9d6tseOh21Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
